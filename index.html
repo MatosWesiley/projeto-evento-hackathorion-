@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#123B66">
+    <title>OLESC Conecta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div>
+            <p class="subtitulo">SEU ESPORTE, SUA CONEXÃO</p>
+            <h1>OLESC CONECTA</h1>
+        </div>
+
+        <button class="botao-perfil" data-tela="perfil"
+                aria-label="Acessar perfil">
+            <span>👤</span>
+        </button>
+    </header>
+
+    <main class="conteudo">
+
+        <section class="tela ativa" id="inicio">
+
+            <section class="aviso">
+                <div class="aviso-topo">
+                    <span>⚠️</span>
+                    <h2>AVISO IMPORTANTE</h2>
+                </div>
+                <h3>Alteração de local</h3>
+                <p>Confira os comunicados para acompanhar as atualizações da competição.</p>
+                <button class="link-aviso" data-tela="boletins">
+                    Ver comunicado →
+                </button>
+            </section>
+
+            <section class="secao">
+                <div class="titulo-secao">
+                    <h2>Próximas partidas</h2>
+                    <button class="ver-mais" data-tela="agenda">Ver agenda</button>
+                </div>
+
+                <article class="card partida">
+                    <div class="icone-esporte">🏀</div>
+                    <div class="detalhes">
+                        <h3>Basquete</h3>
+                        <p>Ginásio principal</p>
+                    </div>
+                    <div class="horario">15:00</div>
+                </article>
+
+                <article class="card partida">
+                    <div class="icone-esporte">🏐</div>
+                    <div class="detalhes">
+                        <h3>Vôlei</h3>
+                        <p>Quadra 2</p>
+                    </div>
+                    <div class="horario">16:30</div>
+                </article>
+            </section>
+
+            <section class="secao">
+                <div class="titulo-secao">
+                    <h2>Últimas notícias</h2>
+                    <button class="ver-mais" data-tela="noticias">Ver todas</button>
+                </div>
+
+                <article class="card noticia">
+                    <div class="icone-noticia">📰</div>
+                    <div>
+                        <span class="categoria">COMPETIÇÃO</span>
+                        <h3>Resultados e avisos</h3>
+                        <p>Acompanhe as novidades da OLESC.</p>
+                    </div>
+                </article>
+
+                <article class="card noticia">
+                    <div class="icone-noticia">📣</div>
+                    <div>
+                        <span class="categoria">COMUNICADOS</span>
+                        <h3>Fique por dentro</h3>
+                        <p>Consulte as informações importantes do evento.</p>
+                    </div>
+                </article>
+            </section>
+
+        </section>
+
+        <section class="tela" id="noticias">
+            <div class="cabecalho-tela">
+                <span class="icone-tela">📰</span>
+                <h2>Notícias</h2>
+                <p>Fique por dentro de tudo o que acontece.</p>
+            </div>
+
+            <article class="card noticia">
+                <div class="icone-noticia">🏆</div>
+                <div>
+                    <span class="categoria">RESULTADOS</span>
+                    <h3>Resultados da competição</h3>
+                    <p>Consulte as atualizações dos resultados esportivos.</p>
+                </div>
+            </article>
+
+            <article class="card noticia">
+                <div class="icone-noticia">📢</div>
+                <div>
+                    <span class="categoria">INFORMAÇÕES</span>
+                    <h3>Comunicados oficiais</h3>
+                    <p>Acompanhe os avisos e as novidades do evento.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="tela" id="agenda">
+            <div class="cabecalho-tela">
+                <span class="icone-tela">📅</span>
+                <h2>Agenda esportiva</h2>
+                <p>Confira os horários das partidas.</p>
+            </div>
+
+            <div class="data-agenda">PROGRAMAÇÃO DO DIA</div>
+
+            <article class="card partida">
+                <div class="icone-esporte">🏀</div>
+                <div class="detalhes">
+                    <h3>Basquete</h3>
+                    <p>Ginásio principal</p>
+                </div>
+                <div class="horario">15:00</div>
+            </article>
+
+            <article class="card partida">
+                <div class="icone-esporte">🏐</div>
+                <div class="detalhes">
+                    <h3>Vôlei</h3>
+                    <p>Quadra 2</p>
+                </div>
+                <div class="horario">16:30</div>
+            </article>
+
+            <article class="card partida">
+                <div class="icone-esporte">⚽</div>
+                <div class="detalhes">
+                    <h3>Futsal</h3>
+                    <p>Local a confirmar</p>
+                </div>
+                <div class="horario">18:00</div>
+            </article>
+        </section>
+
+        <section class="tela" id="boletins">
+            <div class="cabecalho-tela">
+                <span class="icone-tela">📋</span>
+                <h2>Boletins</h2>
+                <p>Comunicados e informações importantes.</p>
+            </div>
+
+            <article class="card boletim">
+                <span class="etiqueta">IMPORTANTE</span>
+                <h3>Alteração de local</h3>
+                <p>Consulte a organização para confirmar o local atualizado das partidas.</p>
+            </article>
+
+            <article class="card boletim">
+                <span class="etiqueta azul">INFORMAÇÃO</span>
+                <h3>Programação esportiva</h3>
+                <p>Confira os horários e os locais previstos na agenda.</p>
+            </article>
+        </section>
+
+        <section class="tela" id="perfil">
+            <div class="cabecalho-tela">
+                <div class="avatar-grande">👤</div>
+                <h2>Meu perfil</h2>
+                <p>Área do usuário OLESC CONECTA.</p>
+            </div>
+
+            <div class="card perfil-card">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail">
+
+                <button class="botao-principal" id="salvar-perfil">
+                    Salvar informações
+                </button>
+
+                <p id="mensagem-perfil" class="mensagem"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <nav class="navbar">
+        <button class="item-nav ativo" data-tela="inicio">
+            <span>🏠</span>
+            <p>Início</p>
+        </button>
+
+        <button class="item-nav" data-tela="noticias">
+            <span>📰</span>
+            <p>Notícias</p>
+        </button>
+
+        <button class="item-nav" data-tela="agenda">
+            <span>📅</span>
+            <p>Agenda</p>
+        </button>
+
+        <button class="item-nav" data-tela="boletins">
+            <span>📋</span>
+            <p>Boletins</p>
+        </button>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
