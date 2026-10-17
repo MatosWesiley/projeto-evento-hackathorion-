@@ -1,0 +1,10 @@
+{
+  "name": "OLESC Conecta",
+  "short_name": "OLESC",
+  "description": "Informações e comunicados de eventos esportivos.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4F7FB",
+  "theme_color": "#123B66"
+}

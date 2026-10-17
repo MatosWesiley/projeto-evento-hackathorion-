@@ -49,3 +49,13 @@ document.getElementById("salvar-perfil").addEventListener("click", function() {
     mensagem.style.color = "#247447";
     mensagem.textContent = "Informações preenchidas com sucesso!";
 });
+
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+        navigator.serviceWorker.register("./service-worker.js")
+            .catch(function(erro) {
+                console.error("Erro ao ativar modo offline:", erro);
+            });
+    });
+}
