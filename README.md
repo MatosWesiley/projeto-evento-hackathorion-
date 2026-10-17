@@ -22,7 +22,7 @@ Desenvolver uma solução tecnológica acessível, funcional e expansível, que 
 
 ## Desenvolvimento
 
-O projeto será desenvolvido colaborativamente por uma equipe de seis integrantes, com atividades distribuídas entre desenvolvimento da interface, comunicação entre dispositivos, lógica de rede, API, banco de dados, testes e integração.
+O projeto será desenvolvido colaborativamente por uma equipe de oito integrantes, com atividades distribuídas entre desenvolvimento da interface, comunicação entre dispositivos, lógica de rede, API, banco de dados, testes e integração.
 
 ## Status do projeto
 
